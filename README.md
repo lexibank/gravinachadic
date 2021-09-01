@@ -32,6 +32,8 @@ This repository contains a selection of the data underlying the thesis of Gravin
 - **Lexemes:** 28,235
 - **Sources:** 0
 - **Synonymy:** 1.13
+- **Cognacy:** 28,235 cognates in 20,377 cognate sets (18,067 singletons)
+- **Cognate Diversity:** 0.70
 
 ## Possible Improvements:
 

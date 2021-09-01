@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://lingulist: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@github.com/lexibank/gravinachadic",
             "rdf:type": "prov:Entity",
-            "dc:created": "0335edd",
+            "dc:created": "54fb679",
             "dc:title": "Repository"
         },
         {
@@ -265,6 +265,80 @@
                 ]
             },
             "url": "parameters.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
+            "dc:extent": 28235,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
+                        "name": "Form_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://linguistics-ontology.org/gold/2010/FormUnit",
+                        "name": "Form"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference",
+                        "name": "Cognateset_ID"
+                    },
+                    {
+                        "datatype": "boolean",
+                        "name": "Doubt"
+                    },
+                    {
+                        "datatype": "string",
+                        "default": "expert",
+                        "name": "Cognate_Detection_Method"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "separator": ";",
+                        "name": "Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#alignment",
+                        "separator": " ",
+                        "name": "Alignment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alignment_Method"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alignment_Source"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Form_ID"
+                        ],
+                        "reference": {
+                            "resource": "forms.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "cognates.csv"
         }
     ]
 }
