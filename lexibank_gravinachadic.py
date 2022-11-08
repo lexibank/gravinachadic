@@ -23,7 +23,16 @@ class Dataset(BaseDataset):
     id = "gravinachadic"
     language_class = CustomLanguage
     concept_class = CustomConcept
-    form_spec = FormSpec(separators="~;,/", missing_data=["∅"], first_form_only=True)
+    form_spec = FormSpec(
+            separators="~;,/", 
+            missing_data=["∅"],
+            brackets={"(": ")", "[": "]"},
+            replacements=[
+                ("\u0300", ""), 
+                ("\u0320", ""),
+                ("\u0301", ""),
+                (" ", "_")], 
+            first_form_only=True)
 
     def cmd_makecldf(self, args):
         # add bib
@@ -60,7 +69,7 @@ class Dataset(BaseDataset):
                         Language_ID=languages[wl[idx, "language"]],
                         Parameter_ID=concepts[wl[idx, "concept"]],
                         Value=wl[idx, "value"],
-                        Source="",
+                        Source="Gravina2014",
                         Cognacy=wl[idx, "cogid"]
                         ):
                     args.writer.add_cognate(

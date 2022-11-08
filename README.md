@@ -25,21 +25,21 @@ This repository contains a selection of the data underlying the thesis of Gravin
 
 ![Glottolog: 34%](https://img.shields.io/badge/Glottolog-34%25-red.svg "Glottolog: 34%")
 ![Concepticon: 90%](https://img.shields.io/badge/Concepticon-90%25-green.svg "Concepticon: 90%")
-![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
+![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![BIPA: 99%](https://img.shields.io/badge/BIPA-99%25-green.svg "BIPA: 99%")
+![CLTS SoundClass: 99%](https://img.shields.io/badge/CLTS%20SoundClass-99%25-green.svg "CLTS SoundClass: 99%")
 
 - **Varieties:** 50
 - **Concepts:** 1,611
 - **Lexemes:** 28,235
-- **Sources:** 0
+- **Sources:** 1
 - **Synonymy:** 1.13
 - **Cognacy:** 28,235 cognates in 20,377 cognate sets (18,067 singletons)
 - **Cognate Diversity:** 0.70
-
-## Possible Improvements:
-
-
-
-- Entries missing sources: 28235/28235 (100.00%)
+- **Invalid lexemes:** 0
+- **Tokens:** 179,568
+- **Segments:** 137 (2 BIPA errors, 2 CLTS sound class errors, 135 CLTS modified)
+- **Inventory size (avg):** 36.98
 
 # Contributors
 
