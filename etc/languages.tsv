@@ -1,51 +1,51 @@
-ID	Name	Glottocode	SubGroup
-Afade	Afade	afad1236	KotokoNorth
-Bata	Bata	bata1314	Bata
-Blank	Blank		
-Buduma	Buduma	budu1265	KotokoIsland
-Buwal	Buwal	buwa1243	Daba
-Cuvok	Cuvok	cuvo1236	Mafa
-Dghwede	Dghwede	dghw1239	Mandara
-Dugwor	Dugwor	dugw1239	Mofu
-Fulfulde	Fulfulde	fula1264	Fulfulde
-Ga	Ga		Tera
-Gavar	Gavar	gava1241	Daba
-Gemzek	Gemzek		Mofu
-Gidar	Gidar	gida1247	Gidar
-GizigaMarva	GizigaMarva		Maroua
-GizigaMoutourwa	GizigaMoutourwa		Maroua
-Hausa	Hausa	haus1257	Hausa
-Hwana	Hwana		Tera
-Jimi	Jimi		Bata
-KamweFutu	Kamwe-Futu		Higi
-Kanuri	Kanuri		Kanuri
-Kilba	Kilba		Margi
-Lagwan	Lagwan		KotokoCentre
-Lamang	Lamang		Lamang
-Mafa	Mafa		Mafa
-Malgbe	Malgbe		KotokoNorth
-Maltam	Maltam		KotokoNorth
-Margi	Margi	marg1265	Margi
-MargiS	MargiS	marg1266	Margi
-Mazera	Mazera		KotokoSouth
-Mbara	Mbara		Musgum
-Mbazla	Mbazla		Maroua
-Mbudum	Mbudum		Daba
-Mbuko	Mbuko		Hurza
-Merey	Merey		Mofu
-MofuGudur	Mofu-Gudur		Mofu
-Moloko	Moloko		Mofu
-Mpade	Mpade	mpad1242	KotokoNorth
-Mser	Mser		KotokoCentre
-Mulwi	Mulwi		Musgum
-Musgum	Musgum		Musgum
-Muyang	Muyang		Mofu
-Nyimatli	Nyimatli		Tera
-Ouldeme	Ouldeme		Mofu
-Psikye	Psikye	psik1239	Higi
-Sharwa	Sharwa	shar1249	Bata
-ShoaArabic	Shoa Arabic		Arabic
-Sukur	Sukur	suku1272	Sukur
-Tsuvan	Tsuvan		Bata
-Vame	Vame		Hurza
-Zina	Zina		KotokoSouth
+ID	Name	Glottocode	SubGroup	Sources
+Afade	Afade	afad1236	KotokoNorth	allisonnd
+Bata	Bata	bata1314	Bata	boyd2005
+Blank	Blank			
+Buduma	Buduma	budu1265	KotokoIsland	mckone2009
+Buwal	Buwal	buwa1243	Daba	viljoenprog
+Cuvok	Cuvok	cuvo1236	Mafa	ndokobaiprog
+Dghwede	Dghwede	dghw1239	Mandara	frick1977
+Dugwor	Dugwor	dugw1239	Mofu	gravina2004
+Fulfulde	Fulfulde	fula1264	Fulfulde	
+Ga	Ga'anda	gaan1243	Tera	manewman1978
+Gavar	Gavar	gava1241	Daba	viljoenprog
+Gemzek	Gemzek	gemz1238	Mofu	gravinand
+Gidar	Gidar	gida1247	Gidar	schuh1982,hungerfordnd,noukeu2002
+GizigaMarva	GizigaMarva	nort3047	Maroua	gravina2004
+GizigaMoutourwa	GizigaMoutourwa	sout3051	Maroua	michielannd
+Hausa	Hausa	haus1257	Hausa	
+Hwana	Hwana	hwan1240	Tera	harleynd
+Jimi	Jimi	jimi1254	Bata	djibind
+KamweFutu	Kamwe-Futu	kamw1239	Higi	harley2009a
+Kanuri	Kanuri	kanu1281	Kanuri	
+Kilba	Kilba	kilb1234	Margi	schuhnd
+Lagwan	Lagwan	lagw1237	KotokoCentre	shryocknd
+Lamang	Lamang	lama1288	Lamang	wolffnd
+Mafa	Mafa	mafa1239	Mafa	barreteau1990
+Malgbe	Malgbe	malg1250	KotokoNorth	allisonnd
+Maltam	Maltam	masl1241	KotokoNorth	allisonnd
+Margi	Margi	marg1265	Margi	hoffmann1963
+MargiS	MargiS	marg1266	Margi	harleynd
+Mazera	Mazera	maje1243	KotokoSouth	allisonnd
+Mbara	Mbara	mbar1260	Musgum	tourneux1986
+Mbazla	Mbazla	bald1241	Maroua	seignobos1984,tourneux1987
+Mbudum	Mbudum	mbed1242	Daba	ndokobaiprog
+Mbuko	Mbuko	mbuk1243	Hurza	gravinaprog
+Merey	Merey	mere1246	Mofu	gravinaetalprog
+MofuGudur	Mofu-Gudur	mofu1248	Mofu	barreteau1988
+Moloko	Moloko	molo1266	Mofu	friesennd
+Mpade	Mpade	mpad1242	KotokoNorth	allisonnd
+Mser	Mser	mser1242	KotokoCentre	allisonnd
+Mulwi	Mulwi	musg1254	Musgum	tourneux1978a
+Musgum	Musgum	musk1256	Musgum	tourneux1977
+Muyang	Muyang	muya1243	Mofu	tsmithforthc
+Nyimatli	Nyimatli	nyim1251	Tera	
+Ouldeme	Ouldeme	wuzl1236	Mofu	wkinnairdprog
+Psikye	Psikye	psik1239	Higi	mazzucci2006
+Sharwa	Sharwa	shar1249	Bata	gravinand
+ShoaArabic	Shoa Arabic	chad1249	Arabic	
+Sukur	Sukur	suku1272	Sukur	david1996,thomasprog
+Tsuvan	Tsuvan	tsuv1243	Bata	johnstonnd
+Vame	Vame	vame1236	Hurza	wkinnairdprog
+Zina	Zina	zina1234	KotokoSouth	schmidtetal2002
