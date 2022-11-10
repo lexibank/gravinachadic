@@ -8,7 +8,7 @@
 | a | 25198 | ✓ | ✓ |
 | e | 11076 | ✓ | ✓ |
 | m | 10484 | ✓ | ✓ |
-| + | 9324 | ✓ | ✓ |
+| + | 9319 | ✓ | ✓ |
 | l | 9133 | ✓ | ✓ |
 | ə | 7940 | ✓ | ✓ |
 | i | 7465 | ✓ | ✓ |
@@ -78,21 +78,21 @@
 | ɹ̝ | 17 | ✓ | ✓ |
 | tʰ | 16 | ✓ | ✓ |
 | vʷ | 14 | ✓ | ✓ |
+| ʊ | 14 | ✓ | ✓ |
 | dː | 13 | ✓ | ✓ |
 | lʱ | 13 | ✓ | ✓ |
 | sː | 13 | ✓ | ✓ |
-| <<ʊ>> | 12 | ? | ? |
 | xʷ | 12 | ✓ | ✓ |
 | nʷ | 11 | ✓ | ✓ |
 | wː | 10 | ✓ | ✓ |
 | tsʰ | 9 | ✓ | ✓ |
-| ŋʱ | 9 | ✓ | ✓ |
 | ɢ | 9 | ✓ | ✓ |
 | cː | 8 | ✓ | ✓ |
 | dʷ | 8 | ✓ | ✓ |
 | pʷ | 8 | ✓ | ✓ |
 | pʼ | 8 | ✓ | ✓ |
 | zː | 8 | ✓ | ✓ |
+| ŋʱ | 8 | ✓ | ✓ |
 | ɣ | 8 | ✓ | ✓ |
 | bː | 7 | ✓ | ✓ |
 | fː | 7 | ✓ | ✓ |
@@ -121,9 +121,7 @@
 | tʷ | 2 | ✓ | ✓ |
 | ŋː | 2 | ✓ | ✓ |
 | ɲ | 2 | ✓ | ✓ |
-| ʊ | 2 | ✓ | ✓ |
 | ʔʲ | 2 | ✓ | ✓ |
-| <<ʷ>> | 1 | ? | ? |
 | bʱ | 1 | ✓ | ✓ |
 | dʒʷ | 1 | ✓ | ✓ |
 | fʼ | 1 | ✓ | ✓ |
@@ -133,6 +131,7 @@
 | tʃː | 1 | ✓ | ✓ |
 | tʷʰ | 1 | ✓ | ✓ |
 | wʱ | 1 | ✓ | ✓ |
+| ŋʷʱ | 1 | ✓ | ✓ |
 | œ̄ | 1 | ✓ | ✓ |
 | ɓː | 1 | ✓ | ✓ |
 | ɨː | 1 | ✓ | ✓ |
@@ -143,7 +142,7 @@
 | ⁿd | 1 | ✓ | ✓ |
 | ⁿdʒ | 1 | ✓ | ✓ |
 
-(137 rows)
+(136 rows)
 
 
 
@@ -159,24 +158,8 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:-------------------------------|:-----------|:----------------------|:------------------------|:--------------------------------------------------------|
-| Buwal-1231_shegoatnannygoat-1 | Buwal | 1231_shegoatnannygoat | mɑn_ŋhʷɑ̄ | m ɑ n + ŋʱ <s> <<ʷ>> </s> a |
-| Buwal-1475_tuftlockofhair-1 | Buwal | 1475_tuftlockofhair | dzʊkʷòɗ_xɑ̄_mɑ_mbōwɑmbō | d z <s> <<ʊ>> </s> kʷ o ɗ + x a + m ɑ + m b o w ɑ m b o |
-| Buwal-217_beard-1 | Buwal | 217_beard | dzʊkʷòɗ_bəzɑm | d z <s> <<ʊ>> </s> kʷ o ɗ + b ə z ɑ m |
-| Buwal-571_eyelash-1 | Buwal | 571_eyelash | dzʊkʷɑɗ_mɑ̄ɮɛm_ndʒɛ̄ | d z <s> <<ʊ>> </s> kʷ ɑ ɗ + m a ɮ ɛ m + n dʒ ɛ |
-| Buwal-735_hairofbody-1 | Buwal | 735_hairofbody | dzʊkʷòɗ_kʷʊsɑm | d z <s> <<ʊ>> </s> kʷ o ɗ + kʷ <s> <<ʊ>> </s> s ɑ m |
-| Buwal-736_hairofhead-1 | Buwal | 736_hairofhead | dzʊkʷòɗ_xɑ | d z <s> <<ʊ>> </s> kʷ o ɗ + x ɑ |
-| Buwal-882_leftdirection-1 | Buwal | 882_leftdirection | ɑ̄tɑ̄_rɑ̄_ɡʷʊlɑ | a t a + r a + gʷ <s> <<ʊ>> </s> l ɑ |
-| Hwana-1200_sand-1 | Hwana | 1200_sand | tʃʊhʷéɹ̝à | tʃ <s> <<ʊ>> </s> hʷ e ɹ̝ a |
-| Hwana-1337_star-1 | Hwana | 1337_star | wʊfʊlŋàːɾá | w <s> <<ʊ>> </s> f <s> <<ʊ>> </s> l ŋ aː ɾ a |
-| Hwana-1601_year-1 | Hwana | 1601_year | xʊɾàːɹ̝á | x <s> <<ʊ>> </s> ɾ aː ɹ̝ a |
-| Hwana-745_harmattan-1 | Hwana | 745_harmattan | wʊfíːɹ̝à | w <s> <<ʊ>> </s> f iː ɹ̝ a |
-| Lagwan-1064_palpitateofheart-1 | Lagwan | 1064_palpitateofheart | kɨnawun__ | k ɨ n a w u n + |
-| Mbudum-1592_woundanimal-1 | Mbudum | 1592_woundanimal | kəɗalaŋɡu__ | k ə ɗ a l a ŋ g u + |
-| Mbudum-496_divorcev-1 | Mbudum | 496_divorcev | kəɡam__ | k ə g a m + |
-| Mpade-664_forget-2 | Mpade | 664_forget | so_he_gɨ__ | s o + h e + g ɨ + |
-| Mpade-664_forget-3 | Mpade | 664_forget | sò_yo_gɨ__ | s o + j o + g ɨ + |
+|------|------------|-----------|--------|------------|
 
-(16 rows)
+(0 rows)
 
 

@@ -11,6 +11,7 @@ import lingpy
 @attr.s
 class CustomLanguage(Language):
     SubGroup = attr.ib(default=None)
+    Sources = attr.ib(default=None)
 
 
 @attr.s
@@ -62,20 +63,26 @@ class Dataset(BaseDataset):
         wl.renumber("cognacy", "cogid")
 
         # add data
+        errors = set()
         for idx in pb(wl, desc="cldfify", total=len(wl)):
-            if wl[idx, 'concept'].strip() in concepts:
-                for lex in args.writer.add_forms_from_value(
-                        Local_ID=wl[idx, "wordid"],
-                        Language_ID=languages[wl[idx, "language"]],
-                        Parameter_ID=concepts[wl[idx, "concept"]],
-                        Value=wl[idx, "value"],
-                        Source="Gravina2014",
-                        Cognacy=wl[idx, "cogid"]
-                        ):
-                    args.writer.add_cognate(
-                            lexeme=lex,
-                            Cognateset_ID=wl[idx, "cogid"],
+            if wl[idx, "language"] in languages:
+                if wl[idx, 'concept'].strip() in concepts:
+                    for lex in args.writer.add_forms_from_value(
+                            Local_ID=wl[idx, "wordid"],
+                            Language_ID=languages[wl[idx, "language"]],
+                            Parameter_ID=concepts[wl[idx, "concept"]],
+                            Value=wl[idx, "value"],
                             Source="Gravina2014",
-                            )
+                            Cognacy=wl[idx, "cogid"]
+                            ):
+                        args.writer.add_cognate(
+                                lexeme=lex,
+                                Cognateset_ID=wl[idx, "cogid"],
+                                Source="Gravina2014",
+                                )
+            else:
+                errors.add(("language", wl[idx, 'languge']))
+        for a, b in errors:
+            print(a, b)
 
 

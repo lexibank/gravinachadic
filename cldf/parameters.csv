@@ -844,7 +844,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,French_Gloss
 843_keepstore,"keep, store",1477,KEEP,"garder, emmagasiner"
 844_kernelofcornmaize,"kernel (of corn, maize)",,,grain (de maïs)
 845_kick,kick,1135,KICK,coup de pied // donner un coup de pied // heurter_de_pied
-846_kid,kid,1972,KID,"cabri, chevreau // gosse // petite chèvre"
+846_kid,kid,1972,YOUNG GOAT (KID),"cabri, chevreau // gosse // petite chèvre"
 847_kidney,kidney,489,KIDNEY,rein // rognon
 848_killmurder,"kill, murder",1417,KILL,tuer
 849_kitchen,kitchen,1365,KITCHEN,cuisine

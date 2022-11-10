@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/lexibank/gravinachadic",
             "rdf:type": "prov:Entity",
-            "dc:created": "6eea3d6",
+            "dc:created": "23fb39e",
             "dc:title": "Repository"
         },
         {
@@ -26,7 +26,7 @@
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.6.0",
+            "dc:created": "v3.0.0",
             "dc:title": "Concepticon"
         },
         {
@@ -219,6 +219,10 @@
                     {
                         "datatype": "string",
                         "name": "SubGroup"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Sources"
                     }
                 ],
                 "primaryKey": [
