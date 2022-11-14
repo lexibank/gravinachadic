@@ -16,7 +16,7 @@ Available online at https://calc.hypotheses.org/2414
 
 ## Notes
 
-This repository contains a selection of the data underlying the thesis of Gravina (2014). The data was extracted from a FLEX version of the database, provided by Roger Blench. In order to extract only the comparable parts of the data, we restricted the export to those lexical entries which are clearly specified by a gloss in French or English and which were reflected in at least 10 of the 50 languages which were selected in the end. The original dataset is much richer than the small standardized part presented here.
+This repository contains a selection of the data underlying the thesis of Gravina (2014). The data was extracted from a FLEX version of the database, provided by Roger Blench. In order to extract only the comparable parts of the data, we restricted the export to those lexical entries which are clearly specified by a gloss in French or English and which were reflected in at least 10 of the 49 languages which were selected in the end. The original dataset is much richer than the small standardized part presented here. Note specifically also that the cognate judgments that we  have assigned here to the data were difficult to retrieve from the original data published in Gravina (2014). As a result, we do not recommend to take them as is for phylogenetic or similar studies but instead thoroughly check and revise them.
 
 
 
@@ -37,9 +37,9 @@ This repository contains a selection of the data underlying the thesis of Gravin
 - **Cognacy:** 28,173 cognates in 20,374 cognate sets (18,105 singletons)
 - **Cognate Diversity:** 0.71
 - **Invalid lexemes:** 0
-- **Tokens:** 179,270
+- **Tokens:** 177,031
 - **Segments:** 136 (0 BIPA errors, 0 CLTS sound class errors, 136 CLTS modified)
-- **Inventory size (avg):** 37.06
+- **Inventory size (avg):** 37.98
 
 ## Possible Improvements:
 
