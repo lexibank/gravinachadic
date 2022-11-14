@@ -55,7 +55,12 @@ class Dataset(BaseDataset):
         args.log.info("added concepts")
 
         # add language
-        languages = args.writer.add_languages(lookup_factory="Name")
+        languages, sources = {}, {}
+        for language in self.languages:
+            args.log.info("adding language {0}".format(language["Name"]))
+            args.writer.add_language(**language)
+            languages[language["Name"]] = language["ID"]
+            sources[language["Name"]] = language["Sources"].split(",")
         args.log.info("added languages")
 
         # read in data
@@ -72,7 +77,7 @@ class Dataset(BaseDataset):
                             Language_ID=languages[wl[idx, "language"]],
                             Parameter_ID=concepts[wl[idx, "concept"]],
                             Value=wl[idx, "value"],
-                            Source="Gravina2014",
+                            Source=sources[wl[idx, "language"]],
                             Cognacy=wl[idx, "cogid"]
                             ):
                         args.writer.add_cognate(
@@ -81,7 +86,7 @@ class Dataset(BaseDataset):
                                 Source="Gravina2014",
                                 )
             else:
-                errors.add(("language", wl[idx, 'languge']))
+                errors.add(("language", wl[idx, 'language']))
         for a, b in errors:
             print(a, b)
 

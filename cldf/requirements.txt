@@ -9,7 +9,7 @@ clldutils==3.13.0
 colorama==0.4.6
 colorlog==6.7.0
 csvw==3.1.3
-exceptiongroup==1.0.1
+exceptiongroup==1.0.2
 gitdb==4.0.9
 greenlet==2.0.1
 html5lib==1.1
@@ -20,7 +20,7 @@ jsonschema==4.17.0
 lingpy==2.6.9
 lxml==4.9.1
 Markdown==3.4.1
-nameparser==1.1.1
+nameparser==1.1.2
 networkx==2.8.8
 newick==1.3.2
 numpy==1.23.4
@@ -48,7 +48,7 @@ segments==2.2.1
 six==1.16.0
 smmap==5.0.0
 soupsieve==2.3.2.post1
-SQLAlchemy==1.4.43
+SQLAlchemy==1.4.44
 tabulate==0.9.0
 termcolor==2.1.0
 tqdm==4.64.1

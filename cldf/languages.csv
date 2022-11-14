@@ -1,21 +1,20 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,SubGroup,Sources
 Afade,Afade,afad1236,Afade,aal,Africa,12.0551,14.6343,Afro-Asiatic,KotokoNorth,allisonnd
-Bata,Bata,bata1314,Bata,bta,Africa,9.68091,12.677,Afro-Asiatic,Bata,boyd2005
-Blank,Blank,,,,,,,,,
+Bata,Bata,bata1314,Bata,bta,Africa,9.68091,12.677,Afro-Asiatic,Bata,"boyd2005,pweddon2001"
 Buduma,Buduma,budu1265,Buduma,bdm,Africa,13.0692,14.4492,Afro-Asiatic,KotokoIsland,mckone2009
-Buwal,Buwal,buwa1243,Buwal,bhs,Africa,10.6151,13.8838,Afro-Asiatic,Daba,viljoenprog
-Cuvok,Cuvok,cuvo1236,Cuvok,cuv,Africa,10.6448,14.0006,Afro-Asiatic,Mafa,ndokobaiprog
+Buwal,Buwal,buwa1243,Buwal,bhs,Africa,10.6151,13.8838,Afro-Asiatic,Daba,viljoenproga
+Cuvok,Cuvok,cuvo1236,Cuvok,cuv,Africa,10.6448,14.0006,Afro-Asiatic,Mafa,ndokobaiproga
 Dghwede,Dghwede,dghw1239,Dghwede,dgh,Africa,11.05751,13.77847,Afro-Asiatic,Mandara,frick1977
 Dugwor,Dugwor,dugw1239,Dugwor,dme,Africa,10.752,14.2134,Afro-Asiatic,Mofu,gravina2004
 Fulfulde,Fulfulde,fula1264,Fula,ful,Africa,,,Atlantic-Congo,Fulfulde,
 Ga,Ga,gaan1243,Ga'anda,gqa,Africa,10.2955,12.6479,Afro-Asiatic,Tera,manewman1978
-Gavar,Gavar,gava1241,Gavar,gou,Africa,10.5603,13.8188,Afro-Asiatic,Daba,viljoenprog
-Gemzek,Gemzek,gemz1238,Gemzek,,Africa,,,Afro-Asiatic,Mofu,gravinand
+Gavar,Gavar,gava1241,Gavar,gou,Africa,10.5603,13.8188,Afro-Asiatic,Daba,viljoenprogb
+Gemzek,Gemzek,gemz1238,Gemzek,,Africa,,,Afro-Asiatic,Mofu,gravinanda
 Gidar,Gidar,gida1247,Gidar,gid,Africa,9.874715,14.07845,Afro-Asiatic,Gidar,"schuh1982,hungerfordnd,noukeu2002"
 GizigaMarva,GizigaMarva,nort3047,North Giziga,gis,Africa,10.6755,14.219,Afro-Asiatic,Maroua,gravina2004
 GizigaMoutourwa,GizigaMoutourwa,sout3051,South Giziga,giz,Africa,10.2809,14.1931,Afro-Asiatic,Maroua,michielannd
 Hausa,Hausa,haus1257,Hausa,hau,Africa,11.1513,8.7804,Afro-Asiatic,Hausa,
-Hwana,Hwana,hwan1240,Hwana,hwo,Africa,10.3633,12.7683,Afro-Asiatic,Tera,harleynd
+Hwana,Hwana,hwan1240,Hwana,hwo,Africa,10.3633,12.7683,Afro-Asiatic,Tera,harleynda
 Jimi,Jimi,jimi1254,Jimi (Cameroon),jim,Africa,10.251,13.5258,Afro-Asiatic,Bata,djibind
 KamweFutu,Kamwe-Futu,kamw1239,Kamwe,hig,Africa,10.646,13.5136,Afro-Asiatic,Higi,harley2009a
 Kanuri,Kanuri,kanu1281,Kanuric,,,,,Saharan,Kanuri,
@@ -26,26 +25,26 @@ Mafa,Mafa,mafa1239,Mafa,maf,Africa,10.943,13.8181,Afro-Asiatic,Mafa,barreteau199
 Malgbe,Malgbe,malg1250,Malgbe,mxf,Africa,12.5342,14.8475,Afro-Asiatic,KotokoNorth,allisonnd
 Maltam,Maltam,masl1241,Maslam,msv,Africa,12.1918,14.8873,Afro-Asiatic,KotokoNorth,allisonnd
 Margi,Margi,marg1265,Marghi Central,mrt,Africa,10.93854,13.0521,Afro-Asiatic,Margi,hoffmann1963
-MargiS,MargiS,marg1266,Marghi South,mfm,Africa,10.53854,12.99521,Afro-Asiatic,Margi,harleynd
+MargiS,MargiS,marg1266,Marghi South,mfm,Africa,10.53854,12.99521,Afro-Asiatic,Margi,harleyndb
 Mazera,Mazera,maje1243,Majera,xmj,Africa,11.1433,15.044,Afro-Asiatic,KotokoSouth,allisonnd
 Mbara,Mbara,mbar1260,Mbara (Chad),mpk,Africa,10.91,15.54,Afro-Asiatic,Musgum,tourneux1986
 Mbazla,Mbazla,bald1241,Baldemu,bdn,Africa,10.9078,14.4674,Afro-Asiatic,Maroua,"seignobos1984,tourneux1987"
-Mbudum,Mbudum,mbed1242,Mbedam,xmd,Africa,10.466,13.9322,Afro-Asiatic,Daba,ndokobaiprog
+Mbudum,Mbudum,mbed1242,Mbedam,xmd,Africa,10.466,13.9322,Afro-Asiatic,Daba,ndokobaiprogb
 Mbuko,Mbuko,mbuk1243,Mbuko,mqb,Africa,10.7788,14.1677,Afro-Asiatic,Hurza,gravinaprog
 Merey,Merey,mere1246,Merey,meq,Africa,10.7458,14.09,Afro-Asiatic,Mofu,gravinaetalprog
 MofuGudur,Mofu-Gudur,mofu1248,Mofu-Gudur,mif,Africa,10.567,14.0314,Afro-Asiatic,Mofu,barreteau1988
 Moloko,Moloko,molo1266,Moloko,mlw,Africa,10.7933,14.2521,Afro-Asiatic,Mofu,friesennd
 Mpade,Mpade,mpad1242,Mpade,mpi,Africa,12.561391,14.446893,Afro-Asiatic,KotokoNorth,allisonnd
 Mser,Mser,mser1242,Mser,kqx,Africa,11.9765,15.0373,Afro-Asiatic,KotokoCentre,allisonnd
-Mulwi,Mulwi,musg1254,Musgu,mug,Africa,10.8439,15.1065,Afro-Asiatic,Musgum,tourneux1978a
+Mulwi,Mulwi,musg1254,Musgu,mug,Africa,10.8439,15.1065,Afro-Asiatic,Musgum,tourneux1978
 Musgum,Musgum,musk1256,Muskum,mje,Africa,11.5697,15.4113,Afro-Asiatic,Musgum,tourneux1977
-Muyang,Muyang,muya1243,Muyang,muy,Africa,10.86047,14.21246,Afro-Asiatic,Mofu,tsmithforthc
+Muyang,Muyang,muya1243,Muyang,muy,Africa,10.86047,14.21246,Afro-Asiatic,Mofu,smith
 Nyimatli,Nyimatli,nyim1251,Nyimatli,,Africa,,,Afro-Asiatic,Tera,
-Ouldeme,Ouldeme,wuzl1236,Wuzlam,udl,Africa,10.955,14.1378,Afro-Asiatic,Mofu,wkinnairdprog
+Ouldeme,Ouldeme,wuzl1236,Wuzlam,udl,Africa,10.955,14.1378,Afro-Asiatic,Mofu,kinnairdproga
 Psikye,Psikye,psik1239,Psikye,kvj,Africa,10.677,13.569,Afro-Asiatic,Higi,mazzucci2006
-Sharwa,Sharwa,shar1249,Sharwa,swq,Africa,10.1414,13.5657,Afro-Asiatic,Bata,gravinand
+Sharwa,Sharwa,shar1249,Sharwa,swq,Africa,10.1414,13.5657,Afro-Asiatic,Bata,gravinandb
 ShoaArabic,Shoa Arabic,chad1249,Chadian Arabic,shu,Africa,14.67,13.5,Afro-Asiatic,Arabic,
 Sukur,Sukur,suku1272,Sukur,syk,Africa,10.8933,13.6437,Afro-Asiatic,Sukur,"david1996,thomasprog"
 Tsuvan,Tsuvan,tsuv1243,Tsuvan,tsh,Africa,10.1551,13.628,Afro-Asiatic,Bata,johnstonnd
-Vame,Vame,vame1236,Vame,mlr,Africa,10.9481,14.2131,Afro-Asiatic,Hurza,wkinnairdprog
+Vame,Vame,vame1236,Vame,mlr,Africa,10.9481,14.2131,Afro-Asiatic,Hurza,kinnairdprogb
 Zina,Zina,zina1234,Zina,,Africa,,,Afro-Asiatic,KotokoSouth,schmidtetal2002

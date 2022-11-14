@@ -25,21 +25,27 @@ This repository contains a selection of the data underlying the thesis of Gravin
 
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 90%](https://img.shields.io/badge/Concepticon-90%25-green.svg "Concepticon: 90%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![Source: 91%](https://img.shields.io/badge/Source-91%25-green.svg "Source: 91%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 50
+- **Varieties:** 49
 - **Concepts:** 1,611
-- **Lexemes:** 28,235
-- **Sources:** 1
-- **Synonymy:** 1.13
-- **Cognacy:** 28,235 cognates in 20,377 cognate sets (18,067 singletons)
-- **Cognate Diversity:** 0.70
+- **Lexemes:** 28,173
+- **Sources:** 43
+- **Synonymy:** 1.12
+- **Cognacy:** 28,173 cognates in 20,374 cognate sets (18,105 singletons)
+- **Cognate Diversity:** 0.71
 - **Invalid lexemes:** 0
-- **Tokens:** 179,562
+- **Tokens:** 179,270
 - **Segments:** 136 (0 BIPA errors, 0 CLTS sound class errors, 136 CLTS modified)
-- **Inventory size (avg):** 36.96
+- **Inventory size (avg):** 37.06
+
+## Possible Improvements:
+
+
+
+- Entries missing sources: 2662/28173 (9.45%)
 
 # Contributors
 
@@ -48,6 +54,7 @@ Name | GitHub user | Description | Role |
 Richard Gravina | | original data collection | Author
 Roger Blench | | data organization | Other
 Johann-Mattis List | @LinguList| orthography profile, maintainer | Other
+Carlos Barrientos Ugarte | @MuffinLinwist | added Glottocodes | Other
 
 
 
