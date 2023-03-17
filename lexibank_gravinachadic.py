@@ -3,7 +3,7 @@ import attr
 from clldutils.misc import slug
 from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar as pb
-from pylexibank import Language, Concept
+from pylexibank import Language, Concept, Lexeme
 from pylexibank import FormSpec
 import lingpy
 
@@ -14,16 +14,19 @@ class CustomLanguage(Language):
     Sources = attr.ib(default=None)
 
 
+
 @attr.s
-class CustomConcept(Concept):
-    French_Gloss = attr.ib(default=None)
+class CustomLexeme(Lexeme):
+    English_Gloss_in_Source = attr.ib(default=None)
+    French_Gloss_in_Source = attr.ib(default=None)
+
 
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "gravinachadic"
     language_class = CustomLanguage
-    concept_class = CustomConcept
+    lexeme_class = CustomLexeme
     form_spec = FormSpec(
             separators="~;,/", 
             missing_data=["∅"],
@@ -50,8 +53,11 @@ class Dataset(BaseDataset):
                     Name=concept["ENGLISH"],
                     Concepticon_ID=concept["CONCEPTICON_ID"],
                     Concepticon_Gloss=concept["CONCEPTICON_GLOSS"],
-                    French_Gloss=concept["FRENCH_GLOSS"],
                     )
+            for itm in concept["LEXIBANK_GLOSS_ENGLISH"].split(" // "):
+                concepts["e: "+itm] = idx
+            for itm in concept["LEXIBANK_GLOSS_FRENCH"].split(" // "):
+                concepts["f: "+itm] = idx
         args.log.info("added concepts")
 
         # add language
@@ -71,17 +77,21 @@ class Dataset(BaseDataset):
         errors = set()
         for idx in pb(wl, desc="cldfify", total=len(wl)):
             if wl[idx, "language"] in languages:
-                if wl[idx, 'concept'].strip() in concepts:
-                    for lex in args.writer.add_forms_from_value(
-                            Local_ID=wl[idx, "wordid"],
-                            Language_ID=languages[wl[idx, "language"]],
-                            Parameter_ID=concepts[wl[idx, "concept"]],
-                            Value=wl[idx, "value"],
-                            Source=sources[wl[idx, "language"]],
-                            Cognacy=wl[idx, "cogid"]
-                            ):
-                        args.writer.add_cognate(
-                                lexeme=lex,
+                prm = concepts.get("f: "+wl[idx, "french"], concepts.get("e: "+wl[idx, "english"]))
+                if prm:
+                    if wl[idx, 'concept'].strip() in concepts:
+                        for lex in args.writer.add_forms_from_value(
+                                Local_ID=wl[idx, "wordid"],
+                                Language_ID=languages[wl[idx, "language"]],
+                                Parameter_ID=prm,
+                                Value=wl[idx, "value"],
+                                Source=sources[wl[idx, "language"]],
+                                English_Gloss_in_Source=wl[idx, "english"],
+                                French_Gloss_in_Source=wl[idx, "french"],
+                                Cognacy=wl[idx, "cogid"]
+                                ):
+                            args.writer.add_cognate(
+                                    lexeme=lex,
                                 Cognateset_ID=wl[idx, "cogid"],
                                 Source="Gravina2014",
                                 )

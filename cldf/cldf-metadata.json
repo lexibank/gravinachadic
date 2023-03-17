@@ -14,13 +14,13 @@
         {
             "rdf:about": "https://github.com/lexibank/gravinachadic",
             "rdf:type": "prov:Entity",
-            "dc:created": "e508bda",
+            "dc:created": "c1dcfd4",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.6",
+            "dc:created": "v4.7",
             "dc:title": "Glottolog"
         },
         {
@@ -43,7 +43,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.9.9"
+            "dc:description": "3.10.4"
         },
         {
             "dc:title": "python-packages",
@@ -55,8 +55,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 28173,
+            "dc:extent": 16663,
             "tableSchema": {
                 "columns": [
                     {
@@ -125,6 +124,14 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "English_Gloss_in_Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "French_Gloss_in_Source"
                     }
                 ],
                 "foreignKeys": [
@@ -159,7 +166,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 49,
+            "dc:extent": 48,
             "tableSchema": {
                 "columns": [
                     {
@@ -233,7 +240,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 1611,
+            "dc:extent": 717,
             "tableSchema": {
                 "columns": [
                     {
@@ -255,10 +262,6 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "French_Gloss"
                     }
                 ],
                 "primaryKey": [
@@ -269,7 +272,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 28173,
+            "dc:extent": 16663,
             "tableSchema": {
                 "columns": [
                     {

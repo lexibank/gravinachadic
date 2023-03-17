@@ -24,28 +24,28 @@ This repository contains a selection of the data underlying the thesis of Gravin
 
 
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 90%](https://img.shields.io/badge/Concepticon-90%25-green.svg "Concepticon: 90%")
+![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 91%](https://img.shields.io/badge/Source-91%25-green.svg "Source: 91%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 49
-- **Concepts:** 1,611
-- **Lexemes:** 28,173
-- **Sources:** 43
-- **Synonymy:** 1.12
-- **Cognacy:** 28,173 cognates in 20,374 cognate sets (18,105 singletons)
-- **Cognate Diversity:** 0.71
+- **Varieties:** 48
+- **Concepts:** 717
+- **Lexemes:** 16,663
+- **Sources:** 42
+- **Synonymy:** 1.14
+- **Cognacy:** 16,663 cognates in 12,299 cognate sets (11,108 singletons)
+- **Cognate Diversity:** 0.73
 - **Invalid lexemes:** 0
-- **Tokens:** 177,031
-- **Segments:** 136 (0 BIPA errors, 0 CLTS sound class errors, 136 CLTS modified)
-- **Inventory size (avg):** 37.98
+- **Tokens:** 97,322
+- **Segments:** 126 (0 BIPA errors, 0 CLTS sound class errors, 126 CLTS modified)
+- **Inventory size (avg):** 36.15
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 2662/28173 (9.45%)
+- Entries missing sources: 1493/16663 (8.96%)
 
 # Contributors
 
