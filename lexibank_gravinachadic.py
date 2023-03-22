@@ -45,18 +45,18 @@ class Dataset(BaseDataset):
 
         # add concept
         concepts = {}
-        for concept in self.concepts:
-            idx = concept["NUMBER"]+"_"+slug(concept["ENGLISH"])
-            concepts[concept["ENGLISH"]] = idx
+        for concept in self.conceptlists[0].concepts.values():
+            idx = concept.number+"_"+slug(concept.english)
+            concepts[concept.english] = idx
             args.writer.add_concept(
                     ID=idx,
-                    Name=concept["ENGLISH"],
-                    Concepticon_ID=concept["CONCEPTICON_ID"],
-                    Concepticon_Gloss=concept["CONCEPTICON_GLOSS"],
+                    Name=concept.english,
+                    Concepticon_ID=concept.concepticon_id,
+                    Concepticon_Gloss=concept.concepticon_gloss,
                     )
-            for itm in concept["LEXIBANK_GLOSS_ENGLISH"].split(" // "):
+            for itm in concept.attributes["lexibank_gloss_english"]:
                 concepts["e: "+itm] = idx
-            for itm in concept["LEXIBANK_GLOSS_FRENCH"].split(" // "):
+            for itm in concept.attributes["lexibank_gloss_french"]:
                 concepts["f: "+itm] = idx
         args.log.info("added concepts")
 
