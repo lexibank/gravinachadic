@@ -1,5 +1,7 @@
 # CLDF dataset derived from Gravinas's "Proto-Central Chadic" from 2014
 
+[![CLDF validation](https://github.com/lexibank/gravinachadic/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/gravinachadic/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -26,6 +28,7 @@ This repository contains a selection of the data underlying the thesis of Gravin
 ## Statistics
 
 
+[![CLDF validation](https://github.com/lexibank/gravinachadic/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/gravinachadic/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 91%](https://img.shields.io/badge/Source-91%25-green.svg "Source: 91%")
