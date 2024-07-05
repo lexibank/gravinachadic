@@ -3,6 +3,6 @@
 Name | GitHub user | Description | Role |
 --- | --- | --- | --- |
 Richard Gravina | | original data collection | Author
-Roger Blench | | data organization | Editor
-Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
-Carlos Barrientos Ugarte | @MuffinLinwist | added Glottocodes | Editor
+Roger Blench | | data organization | Other
+Johann-Mattis List | @LinguList| orthography profile, maintainer | Other
+Carlos Barrientos Ugarte | @MuffinLinwist | added Glottocodes | Other

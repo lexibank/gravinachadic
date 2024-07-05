@@ -14,6 +14,8 @@ If you use these data please cite
 
 This dataset is licensed under a CC-BY-4.0 license
 
+Available online at https://calc.hypotheses.org/2414
+
 
 Conceptlists in Concepticon:
 - [Gravina-2014-717](https://concepticon.clld.org/contributions/Gravina-2014-717)
@@ -33,8 +35,8 @@ This repository contains a selection of the data underlying the thesis of Gravin
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 48 (linked to 48 different Glottocodes)
-- **Concepts:** 717 (linked to 716 different Concepticon concept sets)
+- **Varieties:** 48
+- **Concepts:** 717
 - **Lexemes:** 16,663
 - **Sources:** 42
 - **Synonymy:** 1.14
@@ -56,9 +58,9 @@ This repository contains a selection of the data underlying the thesis of Gravin
 Name | GitHub user | Description | Role |
 --- | --- | --- | --- |
 Richard Gravina | | original data collection | Author
-Roger Blench | | data organization | Editor
-Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
-Carlos Barrientos Ugarte | @MuffinLinwist | added Glottocodes | Editor
+Roger Blench | | data organization | Other
+Johann-Mattis List | @LinguList| orthography profile, maintainer | Other
+Carlos Barrientos Ugarte | @MuffinLinwist | added Glottocodes | Other
 
 
 
