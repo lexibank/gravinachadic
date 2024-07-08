@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import json
 
 with open("metadata.json", encoding="utf-8") as fp:
@@ -6,8 +6,10 @@ with open("metadata.json", encoding="utf-8") as fp:
 
 setup(
     name='lexibank_gravinachadic',
+    version="0.1",
     py_modules=['lexibank_gravinachadic'],
     include_package_data=True,
+    packages=find_packages(where="."),
     url=metadata.get("url",""),
     zip_safe=False,
     entry_points={

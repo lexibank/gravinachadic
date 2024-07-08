@@ -27,6 +27,7 @@ class Dataset(BaseDataset):
     id = "gravinachadic"
     language_class = CustomLanguage
     lexeme_class = CustomLexeme
+    writer_options = dict(keep_languages=False, keep_parameters=False)
     form_spec = FormSpec(
             separators="~;,/", 
             missing_data=["∅"],
