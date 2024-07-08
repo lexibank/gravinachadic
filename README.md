@@ -14,6 +14,8 @@ If you use these data please cite
 
 This dataset is licensed under a CC-BY-4.0 license
 
+Available online at https://hdl.handle.net/1887/30139
+
 
 Conceptlists in Concepticon:
 - [Gravina-2014-717](https://concepticon.clld.org/contributions/Gravina-2014-717)

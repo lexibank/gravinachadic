@@ -6,6 +6,7 @@
     "dc:format": [
         "http://concepticon.clld.org/contributions/Gravina-2014-717"
     ],
+    "dc:identifier": "https://hdl.handle.net/1887/30139",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
@@ -16,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/gravinachadic",
             "rdf:type": "prov:Entity",
-            "dc:created": "7c4d74b",
+            "dc:created": "010985c",
             "dc:title": "Repository"
         },
         {
