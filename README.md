@@ -1,4 +1,4 @@
-# CLDF dataset derived from Gravinas's "Proto-Central Chadic" from 2014
+# CLDF dataset derived from Gravina's "Proto-Central Chadic" from 2014
 
 [![CLDF validation](https://github.com/lexibank/gravinachadic/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/gravinachadic/actions?query=workflow%3ACLDF-validation)
 

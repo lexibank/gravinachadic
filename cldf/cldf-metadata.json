@@ -11,13 +11,13 @@
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from Gravinas's \"Proto-Central Chadic\" from 2014",
+    "dc:title": "CLDF dataset derived from Gravina's \"Proto-Central Chadic\" from 2014",
     "dcat:accessURL": "https://github.com/lexibank/gravinachadic",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/lexibank/gravinachadic",
             "rdf:type": "prov:Entity",
-            "dc:created": "9c2fbd1",
+            "dc:created": "efc9fde",
             "dc:title": "Repository"
         },
         {
