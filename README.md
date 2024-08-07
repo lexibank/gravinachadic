@@ -58,7 +58,7 @@ This repository contains a selection of the data underlying the thesis of Gravin
 Name | GitHub user | Description                     | Role |
 --- | --- |---------------------------------| --- |
 Richard Gravina | | original data collection        | Author
-Roger Blench | | data organization               | Editor
+Roger Blench | | data organization               | Other
 Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
 Carlos Barrientos Ugarte | @MuffinLinwist | Glottocodes, sources, maintainer  | Editor
 

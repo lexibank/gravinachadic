@@ -6,7 +6,6 @@ with open("metadata.json", encoding="utf-8") as fp:
 
 setup(
     name='lexibank_gravinachadic',
-    version="0.1",
     py_modules=['lexibank_gravinachadic'],
     include_package_data=True,
     packages=find_packages(where="."),
